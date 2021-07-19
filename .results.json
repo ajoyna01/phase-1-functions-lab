@@ -1,0 +1,42 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-07-19T16:57:59.279Z",
+    "end": "2021-07-19T16:57:59.461Z",
+    "duration": 182
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before all\" hook",
+      "fullTitle": "\"before all\" hook",
+      "duration": 170,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Cannot find module 'mime-db'\nRequire stack:\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/mime-types/index.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/request/request.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/request/index.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/jsdom/lib/jsdom/living/xhr-utils.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/jsdom/lib/jsdom/living/xmlhttprequest.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/jsdom/lib/jsdom/browser/Window.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/jsdom/lib/jsdom.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/mocha-jsdom/index.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/test/helpers.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:927:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:772:27)\n    at Module.require (node:internal/modules/cjs/loader:999:19)\n    at require (node:internal/modules/cjs/helpers:93:18)\n    at Object.<anonymous> (node_modules/mime-types/index.js:15:10)\n    at Module._compile (node:internal/modules/cjs/loader:1095:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1124:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:816:12)\n    at Module.require (node:internal/modules/cjs/loader:999:19)\n    at require (node:internal/modules/cjs/helpers:93:18)\n    at Object.<anonymous> (node_modules/request/request.js:12:12)\n    at Module._compile (node:internal/modules/cjs/loader:1095:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1124:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:816:12)\n    at Module.require (node:internal/modules/cjs/loader:999:19)\n    at require (node:internal/modules/cjs/helpers:93:18)\n    at Object.<anonymous> (node_modules/request/index.js:143:19)\n    at Module._compile (node:internal/modules/cjs/loader:1095:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1124:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:816:12)\n    at Module.require (node:internal/modules/cjs/loader:999:19)\n    at require (node:internal/modules/cjs/helpers:93:18)\n    at Object.<anonymous> (node_modules/jsdom/lib/jsdom/living/xhr-utils.js:3:17)\n    at Module._compile (node:internal/modules/cjs/loader:1095:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1124:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:816:12)\n    at Module.require (node:internal/modules/cjs/loader:999:19)\n    at require (node:internal/modules/cjs/helpers:93:18)\n    at Object.<anonymous> (node_modules/jsdom/lib/jsdom/living/xmlhttprequest.js:8:18)\n    at Module._compile (node:internal/modules/cjs/loader:1095:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1124:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:816:12)\n    at Module.require (node:internal/modules/cjs/loader:999:19)\n    at require (node:internal/modules/cjs/helpers:93:18)\n    at Object.<anonymous> (node_modules/jsdom/lib/jsdom/browser/Window.js:16:30)\n    at Module._compile (node:internal/modules/cjs/loader:1095:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1124:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:816:12)\n    at Module.require (node:internal/modules/cjs/loader:999:19)\n    at require (node:internal/modules/cjs/helpers:93:18)\n    at Object.<anonymous> (node_modules/jsdom/lib/jsdom.js:16:16)\n    at Module._compile (node:internal/modules/cjs/loader:1095:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1124:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:816:12)\n    at Module.require (node:internal/modules/cjs/loader:999:19)\n    at require (node:internal/modules/cjs/helpers:93:18)\n    at Context.<anonymous> (node_modules/mocha-jsdom/index.js:52:5)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Cannot find module 'mime-db'\nRequire stack:\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/mime-types/index.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/request/request.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/request/index.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/jsdom/lib/jsdom/living/xhr-utils.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/jsdom/lib/jsdom/living/xmlhttprequest.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/jsdom/lib/jsdom/browser/Window.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/jsdom/lib/jsdom.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/mocha-jsdom/index.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/test/helpers.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/mocha/lib/mocha.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/mocha/index.js\n- /Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/mocha/bin/_mocha",
+        "code": "MODULE_NOT_FOUND",
+        "requireStack": [
+          "/Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/mime-types/index.js",
+          "/Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/request/request.js",
+          "/Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/request/index.js",
+          "/Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/jsdom/lib/jsdom/living/xhr-utils.js",
+          "/Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/jsdom/lib/jsdom/living/xmlhttprequest.js",
+          "/Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/jsdom/lib/jsdom/browser/Window.js",
+          "/Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/jsdom/lib/jsdom.js",
+          "/Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/mocha-jsdom/index.js",
+          "/Users/anna/Development/Mod1/phase-1-functions-lab/test/helpers.js",
+          "/Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/mocha/lib/mocha.js",
+          "/Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/mocha/index.js",
+          "/Users/anna/Development/Mod1/phase-1-functions-lab/node_modules/mocha/bin/_mocha"
+        ]
+      }
+    }
+  ],
+  "passes": []
+}
